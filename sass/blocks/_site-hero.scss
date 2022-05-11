@@ -99,6 +99,11 @@
 }
 
 @include max-width(768px) {
+  .hero-wrapper {
+    padding-top: 112px;
+    padding-bottom: 256px;
+  }
+
   .hero-wrapper::before {
     display: none;
   }
@@ -147,6 +152,12 @@
 
 
 @include max-width(576px) {
+
+  .hero-wrapper {
+    padding-top: 96px;
+    padding-bottom: 220px;
+  }
+
   .hero-inner {
     flex-direction: column;
     text-align: center;
@@ -170,6 +181,11 @@
 }
 
 @include max-width(478px) {
+  .hero-wrapper {
+    padding-top: 90px;
+    padding-bottom: 200px;
+  }
+
   .hero-inner__hero-heading {
     font-size: 38px;
     line-height: 37px;
@@ -186,6 +202,12 @@
 
 }
 
+@include max-width(378px) {
+  .hero-wrapper {
+    padding-top: 80px;
+    padding-bottom: 197px;
+  }
+}
 
 @include max-width(360px) {
   .hero-wrapper {

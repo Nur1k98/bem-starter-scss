@@ -686,6 +686,10 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
+  .hero-wrapper {
+    padding-top: 112px;
+    padding-bottom: 256px;
+  }
   .hero-wrapper::before {
     display: none;
   }
@@ -726,6 +730,10 @@ img {
 }
 
 @media only screen and (max-width: 576px) {
+  .hero-wrapper {
+    padding-top: 96px;
+    padding-bottom: 220px;
+  }
   .hero-inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -748,6 +756,10 @@ img {
 }
 
 @media only screen and (max-width: 478px) {
+  .hero-wrapper {
+    padding-top: 90px;
+    padding-bottom: 200px;
+  }
   .hero-inner__hero-heading {
     font-size: 38px;
     line-height: 37px;
@@ -758,6 +770,13 @@ img {
   .hero-inner__hero-text {
     margin-right: auto;
     margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .hero-wrapper {
+    padding-top: 80px;
+    padding-bottom: 197px;
   }
 }
 
